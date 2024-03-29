@@ -1,4 +1,4 @@
-package ru.mirea.beltsovmd.lesson2;
+package ru.mirea.beltsovmd.Lesson2;
 
 import androidx.appcompat.app.AppCompatActivity;
 

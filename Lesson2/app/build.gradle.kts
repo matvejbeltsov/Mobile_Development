@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.beltsovmd.lesson2"
+    namespace = "ru.mirea.beltsovmd.Lesson2"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "ru.mirea.beltsovmd.lesson2"
+        applicationId = "ru.mirea.beltsovmd.Lesson2"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
