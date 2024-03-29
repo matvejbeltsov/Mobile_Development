@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 import ru.mirea.beltsovmd.mireaproject.R;
 
@@ -67,6 +68,7 @@ public class WebViewFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_web_view, container, false);
 
         webView = view.findViewById(R.id.web_view);
+        webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://www.mirea.ru"); // Загрузка страницы по умолчанию
 
         return view;

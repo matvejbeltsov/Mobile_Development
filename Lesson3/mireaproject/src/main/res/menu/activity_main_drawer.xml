@@ -17,11 +17,11 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
         <item
-            android:id="@+id/nav_data"
+            android:id="@+id/dataFragment"
             android:icon="@drawable/ml"
             android:title="Машинное обучение" />
         <item
-            android:id="@+id/nav_browser"
+            android:id="@+id/webViewFragment"
             android:icon="@drawable/mirea"
             android:title="Сайт" />
     </group>
